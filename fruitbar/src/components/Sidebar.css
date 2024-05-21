@@ -1,0 +1,36 @@
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    overflow-y: auto;
+  }
+  
+  .sections {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sections li {
+    margin-bottom: 10px;
+  }
+  
+  .subsections {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+  }
+  
+  .subsections li {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .subsections li:hover {
+    color: darkgreen;
+  }
+  

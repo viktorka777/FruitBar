@@ -1,0 +1,43 @@
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(232, 255, 194);
+    z-index: 1000;
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+
+    h1 {
+        color: rgb(68, 46, 21);
+        margin: 0;
+            }
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    }
+
+    .kyivstar-logo {
+        width: 30;
+        height: 30px;
+        margin-right: 10px;
+    }
+    .contacts p {
+        margin: 0;
+        font-size: 18px;
+    }
+    .content {
+        margin-top: 100px;
+    
+    }
+        
